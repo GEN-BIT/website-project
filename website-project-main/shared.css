@@ -617,6 +617,11 @@ h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2;color:var(--nav
     rgba(42,18,5,0.12) 100%
   );
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
 
 /* ============================================================
    THEME TOGGLE BUTTON — Fixed bottom-right, all pages

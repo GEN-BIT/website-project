@@ -63,6 +63,11 @@
 .prog-enroll small{display:block;color:rgba(255,255,255,.6);font-size:12px;margin-top:2px;font-weight:400}
 
 @media(max-width:700px){.prog-layout{grid-template-columns:1fr}.tab-btn{font-size:13px;padding:9px 14px}}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
 
 /* ── SERVICES PAGE THEME OVERRIDES ──────────────────────── */
 [data-theme="dark"] .tab-btn { background: #141828; border-color: #2C3248; color: #93B4DC; }
