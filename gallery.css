@@ -96,3 +96,32 @@
 
 @media(max-width:800px){.gal-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:480px){.gal-grid{grid-template-columns:1fr}.dsh-meta{flex-direction:column;align-items:flex-start;gap:10px}.gal-stats{grid-template-columns:1fr 1fr}}
+
+/* ── GALLERY PAGE THEME OVERRIDES ───────────────────────── */
+[data-theme="dark"] .filter-bar { background: #1A1E2E; border-color: #2C3248; }
+[data-theme="dark"] .f-btn { background: #141828; border-color: #2C3248; color: #93B4DC; }
+[data-theme="dark"] .f-btn:hover:not(.active) { background: #1E2A44; border-color: #4A6090; }
+[data-theme="dark"] .gal-card { background: #1A1E2E; border-color: #2C3248; }
+[data-theme="dark"] .gal-info h4 { color: #D8E8FF; }
+[data-theme="dark"] .gal-info p { color: #7A90B8; }
+[data-theme="dark"] .dept-section-header { background: #1A1E2E; border-color: #2C3248; }
+[data-theme="dark"] .dept-section-header h3 { color: #D8E8FF; }
+[data-theme="dark"] .dept-section-header p { color: #7A90B8; }
+[data-theme="dark"] .gal-stats { background: #2C3248; }
+[data-theme="dark"] .gs-cell { background: #1A1E2E; }
+[data-theme="dark"] .gs-n { color: var(--gold-line); }
+[data-theme="dark"] .gs-l { color: #7A90B8; }
+[data-theme="dark"] .featured-table tbody td { border-color: #2C3248; }
+[data-theme="dark"] .featured-table tbody tr:hover td { background: #1E2A44; }
+
+[data-theme="brown"] .filter-bar { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .f-btn { background: #F5E8CC; border-color: #DEC89A; color: #5C3015; }
+[data-theme="brown"] .f-btn:hover:not(.active) { background: #F0D8A8; }
+[data-theme="brown"] .f-btn.active { background: #5C3015; border-color: #5C3015; }
+[data-theme="brown"] .gal-card { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .gal-info h4 { color: #3B1F0A; }
+[data-theme="brown"] .dept-section-header { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .gal-stats { background: #DEC89A; }
+[data-theme="brown"] .gs-cell { background: #FFFAF3; }
+[data-theme="brown"] .gs-n { color: #5C3015; }
+[data-theme="brown"] .featured-table tbody tr:hover td { background: #F5E8CC; }

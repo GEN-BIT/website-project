@@ -54,3 +54,47 @@
 
 @media(max-width:760px){.contact-cards{grid-template-columns:1fr 1fr}}
 @media(max-width:480px){.contact-cards{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
+
+/* ── CONTACT PAGE THEME OVERRIDES ───────────────────────── */
+[data-theme="dark"] .cc { background: #1A1E2E; border-color: #2C3248; border-top-color: #2A4070; }
+[data-theme="dark"] .cc h3 { color: #D8E8FF; }
+[data-theme="dark"] .cc p, [data-theme="dark"] .cc a { color: #93B4DC; }
+[data-theme="dark"] .map-placeholder { background: linear-gradient(135deg,#141828,#1A2240); border-color: #2C3248; }
+[data-theme="dark"] .contact-form-wrap { background: #1A1E2E; border-color: #2C3248; }
+[data-theme="dark"] .form-title { color: #D8E8FF; }
+[data-theme="dark"] .form-subtitle { color: #7A90B8; border-color: #2C3248; }
+[data-theme="dark"] .field label { color: #D8E8FF; }
+[data-theme="dark"] .field input,
+[data-theme="dark"] .field select,
+[data-theme="dark"] .field textarea {
+  background: #141828; border-color: #2C3248;
+  color: #D8E8FF;
+}
+[data-theme="dark"] .field input:focus,
+[data-theme="dark"] .field select:focus,
+[data-theme="dark"] .field textarea:focus { border-color: #4A7AB8; background: #1A1E2E; }
+[data-theme="dark"] .radio-label { background: #141828; border-color: #2C3248; color: #D8E8FF; }
+[data-theme="dark"] .radio-label:hover { background: #1E2A44; border-color: #4A6090; }
+[data-theme="dark"] .hours-table tr { border-color: #2C3248; }
+[data-theme="dark"] .hours-table td:last-child { color: var(--gold-line); }
+[data-theme="dark"] .admission-box { background: #1E2440; border-color: #3A4A6A; }
+[data-theme="dark"] .admission-box h4 { color: #D8E8FF; }
+[data-theme="dark"] .intake-note { background: #141828; border-color: #3A4A6A; color: #93B4DC; }
+
+[data-theme="brown"] .cc { background: #FFFAF3; border-color: #DEC89A; border-top-color: #5C3015; }
+[data-theme="brown"] .cc h3 { color: #3B1F0A; }
+[data-theme="brown"] .contact-form-wrap { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .form-subtitle { border-color: #DEC89A; }
+[data-theme="brown"] .field input,
+[data-theme="brown"] .field select,
+[data-theme="brown"] .field textarea {
+  background: #F5ECD8; border-color: #DEC89A; color: #2A1205;
+}
+[data-theme="brown"] .field input:focus,
+[data-theme="brown"] .field select:focus,
+[data-theme="brown"] .field textarea:focus { border-color: #8A5020; background: #FFFAF3; }
+[data-theme="brown"] .radio-label { background: #F5E8CC; border-color: #DEC89A; color: #2A1205; }
+[data-theme="brown"] .radio-label:hover { background: #F0D8A8; border-color: #B8750A; }
+[data-theme="brown"] .hours-table td:last-child { color: #5C3015; }
+[data-theme="brown"] .admission-box { background: #FFF0D0; border-color: var(--gold-line); }
+[data-theme="brown"] .intake-note { background: #FFFAF3; border-color: #DEC89A; color: #5C3015; }
