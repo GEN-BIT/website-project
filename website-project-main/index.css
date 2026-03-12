@@ -1,6 +1,3 @@
-/* index.css — Home Page */
-
-/* HERO ─────────────────────────────────────────────────── */
 .hero{
   background-image: url('school_gate.jpg');
   background-size: cover;
@@ -148,7 +145,7 @@
 [data-theme="dark"] .hero-accred {
   background: rgba(191,155,48,.1);
   border-color: rgba(191,155,48,.2);
-}
+  }
 [data-theme="dark"] .hs-cell { background: rgba(255,255,255,.04); }
 [data-theme="dark"] .prog-card {
   background: #1A1E2E;
