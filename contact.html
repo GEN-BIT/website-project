@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Contact & Enroll | Saint Laurent Gaseke TSS</title>
+  <link rel="stylesheet" href="shared.css"/>
+  <link rel="stylesheet" href="contact.css"/>
+</head>
+<body>
+
+<div class="top-ribbon">
+  <div class="container ribbon-inner">
+    <span class="ribbon-left">Gicumbi District &mdash; Northern Province, Rwanda</span>
+    <span class="ribbon-right">
+      <a href="https://rtb.gov.rw" target="_blank">RTB Rwanda</a>
+      <a href="https://www.mineduc.gov.rw" target="_blank">MINEDUC</a>
+      <a href="contact.html" class="ribbon-enroll">Enroll Now</a>
+    </span>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <div class="brand-crest"><span class="crest-slg">SLG</span><span class="crest-tss">TSS</span></div>
+      <div class="brand-words">
+        <h1>Saint Laurent Gaseke</h1>
+        <div class="school-tag">Technical Secondary School &mdash; Rwanda</div>
+      </div>
+    </a>
+    <div class="header-contacts">
+      <div class="hc"><div class="hc-ico">&#128222;</div><div><span class="hc-label">Call Us</span><span class="hc-value">+250 781 234 567</span></div></div>
+      <div class="hc"><div class="hc-ico">&#9993;</div><div><span class="hc-label">Email</span><span class="hc-value">info@slgaseke-tss.rw</span></div></div>
+    </div>
+  </div>
+</header>
+<nav class="main-nav">
+  <div class="container nav-inner">
+    <ul class="nav-list" id="navList">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Programs</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <li class="nav-cta"><a href="contact.html">Enroll Now &#8594;</a></li>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="ph-breadcrumb"><a href="index.html">Home</a> &rsaquo; Contact Us</div>
+    <span class="ph-kicker">Get in Touch</span>
+    <h2>Contact &amp; Enrollment</h2>
+    <p class="ph-sub">We are here to help &mdash; reach us by phone, email, or use the form below to enquire or apply.</p>
+  </div>
+</div>
+
+<div class="page-wrap">
+  <div class="container">
+    <div class="layout">
+      <div class="main-col">
+
+        <div class="contact-cards">
+          <div class="cc"><span class="cc-icon">&#128205;</span><h3>Our Location</h3><p>Saint Laurent Gaseke TSS<br/>Gicumbi District<br/>Northern Province, Rwanda</p></div>
+          <div class="cc"><span class="cc-icon">&#128222;</span><h3>Call Us</h3><a href="tel:+250781234567">+250 781 234 567</a><a href="tel:+250722345678">+250 722 345 678</a></div>
+          <div class="cc"><span class="cc-icon">&#9993;</span><h3>Email Us</h3><a href="mailto:info@slgaseke-tss.rw">info@slgaseke-tss.rw</a><a href="mailto:admissions@slgaseke-tss.rw">admissions@slgaseke-tss.rw</a></div>
+          <div class="cc"><span class="cc-icon">&#128336;</span><h3>Working Hours</h3><p>Mon &ndash; Fri: 7:00am &ndash; 5:00pm<br/>Saturday: 8:00am &ndash; 12:00pm<br/><strong style="color:#DC2626">Sunday: Closed</strong></p></div>
+        </div>
+
+        <div class="map-placeholder">
+          <span>&#128205;</span>
+          <strong>Saint Laurent Gaseke TSS &mdash; Gicumbi District, Northern Province, Rwanda</strong>
+          <small>Interactive map will be available on deployment</small>
+        </div>
+
+        <div class="contact-form-wrap" id="enrollForm">
+          <h2 class="form-title">Send a Message or Enquire About Enrollment</h2>
+          <p class="form-subtitle">Fill in the form below and we will reply within one working day. Fields marked <strong style="color:#DC2626">*</strong> are required.</p>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="field"><label for="fname">First Name <span class="req">*</span></label><input type="text" id="fname" placeholder="e.g. Jean" autocomplete="given-name"/></div>
+              <div class="field"><label for="lname">Last Name <span class="req">*</span></label><input type="text" id="lname" placeholder="e.g. Uwimana" autocomplete="family-name"/></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="femail">Email Address <span class="req">*</span></label><input type="email" id="femail" placeholder="your@email.com" autocomplete="email"/></div>
+              <div class="field"><label for="phone">Phone Number</label><input type="tel" id="phone" placeholder="+250 7XX XXX XXX" autocomplete="tel"/></div>
+            </div>
+            <div class="field">
+              <label>Enquiry Type <span class="req">*</span></label>
+              <div class="radio-group">
+                <label class="radio-label"><input type="radio" name="enquiry" value="enroll" checked/> I Want to Enroll</label>
+                <label class="radio-label"><input type="radio" name="enquiry" value="service"/> Request a Service</label>
+                <label class="radio-label"><input type="radio" name="enquiry" value="partner"/> Partnership</label>
+                <label class="radio-label"><input type="radio" name="enquiry" value="general"/> General Question</label>
+              </div>
+            </div>
+            <div class="field"><label for="program">Program of Interest</label><select id="program"><option value="">-- Choose a program (optional) --</option><option>Software Development (SOD)</option><option>Electrical Technology (ETE)</option><option>Electronics (ELE)</option><option>Building Construction (BDC)</option></select></div>
+            <div class="field"><label for="msg">Your Message <span class="req">*</span></label><textarea id="msg" placeholder="Write your message or question here..."></textarea></div>
+            <button type="submit" class="form-submit">Send Message &rsaquo;</button>
+            <div class="form-msg ok" id="okMsg">&#10003; Thank you! Your message has been sent. We will reply within one working day.</div>
+            <div class="form-msg err" id="errMsg">&#10007; Please complete all required fields (first name, last name, valid email and message).</div>
+          </form>
+        </div>
+
+        <div class="sec-head">
+          <span class="sec-kicker">How to Join</span>
+          <h2 class="sec-title">Admission Requirements</h2>
+          <div class="sec-line"></div>
+        </div>
+        <div class="admission-box">
+          <h4>To Apply for Any Program You Must:</h4>
+          <ul class="check-list">
+            <li>Hold a Rwanda National Exam certificate (Primary Leaving Exam or O-Level)</li>
+            <li>Meet the Rwanda TVET Board minimum entry score requirements</li>
+            <li>Submit a completed application form at the school admissions office</li>
+            <li>Provide two recent passport-size photographs</li>
+            <li>Provide a copy of your National ID card</li>
+          </ul>
+          <div class="intake-note">&#128197; Intake Periods: <strong>February</strong> and <strong>September</strong> every year</div>
+        </div>
+
+        <div class="cta-banner">
+          <div class="cta-text"><h3>Ready to Apply?</h3><p>Use the form above or visit us in person at Gicumbi District, Northern Province.</p></div>
+          <div class="cta-actions"><a href="#enrollForm" class="btn btn-gold btn-lg">Fill in the Form</a><a href="services.html" class="btn btn-ghost">View Programs</a></div>
+        </div>
+
+      </div>
+
+      <aside class="sidebar-col">
+        <div class="sb-widget">
+          <div class="sb-widget-head">&#128279; Navigation</div>
+          <div class="sb-widget-body">
+            <ul class="sb-nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Our Programs</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sb-widget">
+          <div class="sb-widget-head">&#128336; Office Hours</div>
+          <div class="sb-widget-body" style="padding:14px">
+            <table class="hours-table">
+              <tr><td>Monday</td><td>7:00am &ndash; 5:00pm</td></tr>
+              <tr><td>Tuesday</td><td>7:00am &ndash; 5:00pm</td></tr>
+              <tr><td>Wednesday</td><td>7:00am &ndash; 5:00pm</td></tr>
+              <tr><td>Thursday</td><td>7:00am &ndash; 5:00pm</td></tr>
+              <tr><td>Friday</td><td>7:00am &ndash; 5:00pm</td></tr>
+              <tr><td>Saturday</td><td>8:00am &ndash; 12:00pm</td></tr>
+              <tr><td>Sunday</td><td class="closed-day">Closed</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="sb-widget">
+          <div class="sb-widget-head">&#127963; Accreditation</div>
+          <div class="sb-widget-body">
+            <div class="sb-accred">
+              <div class="sb-accred-label">Officially Recognised By</div>
+              <div class="sb-accred-links">
+                <a href="https://rtb.gov.rw" target="_blank" class="sb-accred-badge">Rwanda TVET Board (RTB)</a>
+                <a href="https://www.mineduc.gov.rw" target="_blank" class="sb-accred-badge">Ministry of Education (MINEDUC)</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sb-widget">
+          <div class="sb-widget-head">&#127979; Our Programs</div>
+          <div class="sb-widget-body">
+            <ul class="sb-nav-links">
+              <li><a href="services.html#sod">Software Development</a></li>
+              <li><a href="services.html#ete">Electrical Technology</a></li>
+              <li><a href="services.html#ele">Electronics</a></li>
+              <li><a href="services.html#bdc">Building Construction</a></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <div class="footer-brand"><div class="fb-crest">SLG</div><div class="fb-name"><strong>Saint Laurent Gaseke TSS</strong><small>Technical Secondary School</small></div></div>
+      <p>Providing quality TVET education in Gicumbi District since the early 2000s. Fully accredited by the Rwanda TVET Board and MINEDUC.</p>
+      <div class="footer-contact-list">
+        <span>&#128205; Gicumbi District, Northern Province, Rwanda</span>
+        <span>&#128222; <a href="tel:+250781234567">+250 781 234 567</a></span>
+        <span>&#9993; <a href="mailto:info@slgaseke-tss.rw">info@slgaseke-tss.rw</a></span>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Our Programs</h4>
+      <ul>
+        <li><a href="services.html">Software Development (SOD)</a></li>
+        <li><a href="services.html">Electrical Technology (ETE)</a></li>
+        <li><a href="services.html">Electronics (ELE)</a></li>
+        <li><a href="services.html">Building Construction (BDC)</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact &amp; Enroll</a></li>
+        <li><a href="https://rtb.gov.rw" target="_blank">Rwanda TVET Board</a></li>
+        <li><a href="https://www.mineduc.gov.rw" target="_blank">MINEDUC Rwanda</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Accreditation</h4>
+      <a href="https://rtb.gov.rw" target="_blank" class="footer-badge">&#10003; Rwanda TVET Board (RTB)</a>
+      <a href="https://www.mineduc.gov.rw" target="_blank" class="footer-badge">&#10003; Ministry of Education</a>
+      <div class="footer-cert"><span>TVET Level 4 Certified</span><span>Nationally Recognised Award</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><div class="container footer-bottom-inner"><span>&copy; 2024 Saint Laurent Gaseke TSS &mdash; All rights reserved.</span><span>Gicumbi District &mdash; Northern Province &mdash; Rwanda</span></div></div>
+</footer>
+<script>
+  var b=document.getElementById('burger'),n=document.getElementById('navList');
+  if(b){b.addEventListener('click',function(){n.classList.toggle('open');b.classList.toggle('is-open')})}
+  
+  document.getElementById('contactForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var ok=document.getElementById('okMsg'),er=document.getElementById('errMsg');
+    ok.style.display=er.style.display='none';
+    var fn=document.getElementById('fname').value.trim();
+    var ln=document.getElementById('lname').value.trim();
+    var em=document.getElementById('femail').value.trim();
+    var ms=document.getElementById('msg').value.trim();
+    if(!fn||!ln||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)||!ms){
+      er.style.display='block';er.scrollIntoView({behavior:'smooth',block:'center'});return;
+    }
+    var btn=this.querySelector('.form-submit');
+    btn.textContent='Sending...';btn.disabled=true;
+    setTimeout(function(){
+      ok.style.display='block';
+      document.getElementById('contactForm').reset();
+      btn.textContent='Send Message ›';btn.disabled=false;
+      ok.scrollIntoView({behavior:'smooth',block:'center'});
+      setTimeout(function(){ok.style.display='none'},9000);
+    },900);
+  });
+
+</script>
+</body>
+</html>
