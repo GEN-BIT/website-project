@@ -63,3 +63,32 @@
 .prog-enroll small{display:block;color:rgba(255,255,255,.6);font-size:12px;margin-top:2px;font-weight:400}
 
 @media(max-width:700px){.prog-layout{grid-template-columns:1fr}.tab-btn{font-size:13px;padding:9px 14px}}
+
+/* ── SERVICES PAGE THEME OVERRIDES ──────────────────────── */
+[data-theme="dark"] .tab-btn { background: #141828; border-color: #2C3248; color: #93B4DC; }
+[data-theme="dark"] .tab-btn:hover { background: #1E2A44; }
+[data-theme="dark"] .tab-btn.active { background: #0D1630; color: var(--gold-line); border-color: var(--gold-line); }
+[data-theme="dark"] .tab-row { border-color: #2C3248; }
+[data-theme="dark"] .prog-header { background: #0D1630; }
+[data-theme="dark"] .prog-layout .sec-title { color: #D8E8FF; }
+[data-theme="dark"] .cur-item { border-color: #2C3248; }
+[data-theme="dark"] .cur-text strong { color: #D8E8FF; }
+[data-theme="dark"] .cur-text span { color: #7A90B8; }
+[data-theme="dark"] .cur-bullet { background: #1E2A44; border-color: #3A4A6A; }
+[data-theme="dark"] .prog-info-box { background: #1A1E2E; border-color: #2C3248; }
+[data-theme="dark"] .pib-row { border-color: #2C3248; }
+[data-theme="dark"] .pib-lbl { color: #7A90B8; }
+[data-theme="dark"] .pib-val { color: #D8E8FF; }
+[data-theme="dark"] .stag { background: #1E2A44; border-color: #3A4A6A; color: #93B4DC; }
+[data-theme="dark"] .services-offered h4 { color: #7A90B8; }
+[data-theme="dark"] .prog-enroll { background: linear-gradient(135deg,#0D1630,#152040); }
+
+[data-theme="brown"] .tab-btn { background: #F5E8CC; border-color: #DEC89A; color: #5C3015; }
+[data-theme="brown"] .tab-btn:hover { background: #F0D8A8; }
+[data-theme="brown"] .tab-btn.active { background: #5C3015; color: #FFF8EE; border-color: #5C3015; }
+[data-theme="brown"] .tab-row { border-color: #5C3015; }
+[data-theme="brown"] .cur-item { border-color: #DEC89A; }
+[data-theme="brown"] .cur-bullet { background: #F5E8CC; border-color: var(--gold-line); }
+[data-theme="brown"] .prog-info-box { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .pib-row { border-color: #DEC89A; }
+[data-theme="brown"] .stag { background: #F5E8CC; border-color: var(--gold-line); color: #5C3015; }

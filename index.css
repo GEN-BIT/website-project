@@ -137,3 +137,44 @@
 /* RESPONSIVE ────────────────────────────────────────────── */
 @media(max-width:860px){.hero-inner{grid-template-columns:1fr}.hero-panel{display:none}.hero h2{font-size:32px}}
 @media(max-width:560px){.prog-grid{grid-template-columns:1fr}.hero h2{font-size:26px}.hero{padding:44px 0 36px}}
+
+/* ── INDEX PAGE THEME OVERRIDES ─────────────────────────── */
+
+/* Dark */
+[data-theme="dark"] .hero-panel {
+  background: rgba(255,255,255,.05);
+  border-color: rgba(255,255,255,.08);
+}
+[data-theme="dark"] .hero-accred {
+  background: rgba(191,155,48,.1);
+  border-color: rgba(191,155,48,.2);
+}
+[data-theme="dark"] .hs-cell { background: rgba(255,255,255,.04); }
+[data-theme="dark"] .prog-card {
+  background: #1A1E2E;
+  border-color: #2C3248;
+}
+[data-theme="dark"] .prog-card:hover { border-color: #4A6090; }
+[data-theme="dark"] .prog-card-body h3 { color: #D8E8FF; }
+[data-theme="dark"] .prog-card-body p { color: #7A90B8; }
+[data-theme="dark"] .prog-card-footer { background: #141828; border-color: #2C3248; }
+[data-theme="dark"] .director-wrap { background: #1A1E2E; border-color: #2C3248; }
+[data-theme="dark"] .director-quote blockquote { color: #D8E8FF; border-color: var(--gold-line); }
+[data-theme="dark"] .director-quote cite { color: #7A90B8; }
+[data-theme="dark"] .news-item { border-color: #2C3248; }
+[data-theme="dark"] .ni-body a { color: #93B4DC; }
+[data-theme="dark"] .ni-body p { color: #7A90B8; }
+
+/* Brown */
+[data-theme="brown"] .hero-panel {
+  background: rgba(42,18,5,.25);
+  border-color: rgba(180,120,20,.3);
+}
+[data-theme="brown"] .prog-card { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .prog-card:hover { border-color: #B8750A; }
+[data-theme="brown"] .prog-card-body h3 { color: #3B1F0A; }
+[data-theme="brown"] .prog-card-footer { background: #F5ECD8; border-color: #DEC89A; }
+[data-theme="brown"] .director-wrap { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .director-quote blockquote { color: #3B1F0A; border-color: var(--gold-line); }
+[data-theme="brown"] .news-item { border-color: #DEC89A; }
+[data-theme="brown"] .ni-body a { color: #7A4520; }

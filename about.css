@@ -42,3 +42,28 @@
 .team-info p{font-size:13px;color:var(--text-soft);line-height:1.65}
 
 @media(max-width:680px){.mvv-grid{grid-template-columns:1fr}.values-grid{grid-template-columns:1fr}.team-grid{grid-template-columns:1fr}}
+
+/* ── ABOUT PAGE THEME OVERRIDES ─────────────────────────── */
+[data-theme="dark"] .history-text { color: #B8C8E8; }
+[data-theme="dark"] .tl-content { border-color: #2C3248; }
+[data-theme="dark"] .tl-item { border-color: #2C3248; }
+[data-theme="dark"] .tl-content strong { color: #D8E8FF; }
+[data-theme="dark"] .tl-content p { color: #7A90B8; }
+[data-theme="dark"] .mvv-card { background: #1A1E2E; border-color: #2C3248; border-top-color: var(--gold-line); }
+[data-theme="dark"] .mvv-card::before { background: rgba(191,155,48,.06); }
+[data-theme="dark"] .mvv-card p { color: #B8C8E8; }
+[data-theme="dark"] .val-card { background: #1A1E2E; border-color: #2C3248; }
+[data-theme="dark"] .val-desc { color: #7A90B8; }
+[data-theme="dark"] .team-card { background: #1A1E2E; border-color: #2C3248; }
+[data-theme="dark"] .team-info p { color: #7A90B8; }
+
+[data-theme="brown"] .history-text { color: #4A2810; }
+[data-theme="brown"] .tl-item { border-color: #DEC89A; }
+[data-theme="brown"] .tl-content { border-color: #DEC89A; }
+[data-theme="brown"] .tl-content strong { color: #3B1F0A; }
+[data-theme="brown"] .mvv-card { background: #FFFAF3; border-color: #DEC89A; border-top-color: var(--gold-line); }
+[data-theme="brown"] .val-card { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .val-num { background: #5C3015; }
+[data-theme="brown"] .team-card { background: #FFFAF3; border-color: #DEC89A; }
+[data-theme="brown"] .team-avatar { background: #5C3015; border-color: var(--gold-line); }
+[data-theme="brown"] .team-role { background: #F5E8CC; color: #8A5020; border-color: var(--gold-line); }
