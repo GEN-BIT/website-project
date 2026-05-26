@@ -64,8 +64,8 @@
 
         <div class="tab-row">
           <button class="tab-btn active" onclick="switchTab('sod',this)">&#128187; Software Dev (SOD)</button>
-          <button class="tab-btn" onclick="switchTab('ete',this)">&#9889; Electrical (ETE)</button>
-          <button class="tab-btn" onclick="switchTab('ele',this)">&#128295; Electronics (ELE)</button>
+          <button class="tab-btn" onclick="switchTab('ele',this)">&#9889; Electrical (ELE)</button>
+          <button class="tab-btn" onclick="switchTab('ete',this)">&#128295; Electronics (ETE)</button>
           <button class="tab-btn" onclick="switchTab('bdc',this)">&#127959; Construction (BDC)</button>
         </div>
 
@@ -95,11 +95,11 @@
     <div><p>Interested in SOD &mdash; Dept. 01?</p><small>New intake every February &amp; September. Limited places.</small></div>
     <a href="contact.html" class="btn btn-gold">Apply for SOD &mdash; Dept. 01 &rsaquo;</a>
   </div>
-</div><div class="prog-panel" id="panel-ete">
+</div><div class="prog-panel" id="panel-ele">
   <div class="prog-header ">
     <div class="prog-header-icon">&#9889;</div>
     <div>
-      <span class="prog-dept-code">ETE &mdash; Dept. 02</span>
+      <span class="prog-dept-code">ELE &mdash; Dept. 02</span>
       <h2>Electrical Technology</h2>
       <p class="prog-tagline">Industrial and domestic electrical systems, solar energy and power infrastructure across Rwanda.</p>
     </div>
@@ -118,14 +118,14 @@
     </div>
   </div>
   <div class="prog-enroll">
-    <div><p>Interested in ETE &mdash; Dept. 02?</p><small>New intake every February &amp; September. Limited places.</small></div>
-    <a href="contact.html" class="btn btn-gold">Apply for ETE &mdash; Dept. 02 &rsaquo;</a>
+    <div><p>Interested in ELE &mdash; Dept. 02?</p><small>New intake every February &amp; September. Limited places.</small></div>
+    <a href="contact.html" class="btn btn-gold">Apply for ELE &mdash; Dept. 02 &rsaquo;</a>
   </div>
-</div><div class="prog-panel" id="panel-ele">
+</div><div class="prog-panel" id="panel-ete">
   <div class="prog-header ">
     <div class="prog-header-icon">&#128295;</div>
     <div>
-      <span class="prog-dept-code">ELE &mdash; Dept. 03</span>
+      <span class="prog-dept-code">ETE &mdash; Dept. 03</span>
       <h2>Electronics</h2>
       <p class="prog-tagline">Repair, maintenance and design of electronic systems &mdash; a high-demand skill across Rwanda.</p>
     </div>
@@ -144,8 +144,8 @@
     </div>
   </div>
   <div class="prog-enroll">
-    <div><p>Interested in ELE &mdash; Dept. 03?</p><small>New intake every February &amp; September. Limited places.</small></div>
-    <a href="contact.html" class="btn btn-gold">Apply for ELE &mdash; Dept. 03 &rsaquo;</a>
+    <div><p>Interested in ETE &mdash; Dept. 03?</p><small>New intake every February &amp; September. Limited places.</small></div>
+    <a href="contact.html" class="btn btn-gold">Apply for ETE &mdash; Dept. 03 &rsaquo;</a>
   </div>
 </div><div class="prog-panel" id="panel-bdc">
   <div class="prog-header ">
@@ -249,8 +249,8 @@
       <h4>Our Programs</h4>
       <ul>
         <li><a href="services.html">Software Development (SOD)</a></li>
-        <li><a href="services.html">Electrical Technology (ETE)</a></li>
-        <li><a href="services.html">Electronics (ELE)</a></li>
+        <li><a href="services.html">Electrical Technology (ELE)</a></li>
+        <li><a href="services.html">Electronics (ETE)</a></li>
         <li><a href="services.html">Building Construction (BDC)</a></li>
       </ul>
     </div>
@@ -284,11 +284,11 @@
     if(el)el.classList.add('active');
     document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active')});
     if(btn)btn.classList.add('active');
-    else{var map={sod:0,ete:1,ele:2,bdc:3};var btns=document.querySelectorAll('.tab-btn');if(btns[map[id]])btns[map[id]].classList.add('active')}
+    else{var map={sod:0,ele:1,ete:2,bdc:3};var btns=document.querySelectorAll('.tab-btn');if(btns[map[id]])btns[map[id]].classList.add('active')}
   }
   document.getElementById('panel-sod').classList.add('active');
   var h=location.hash.replace('#','');
-  if(['sod','ete','ele','bdc'].indexOf(h)>-1)switchTab(h,null);
+  if(['sod','ele','ete','bdc'].indexOf(h)>-1)switchTab(h,null);
 
 </script>
 </body>

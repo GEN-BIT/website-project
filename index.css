@@ -2,11 +2,11 @@
 
 /* HERO ─────────────────────────────────────────────────── */
 .hero{
-  background-image: url('school_gate.jpg');
+  background-image: url('ST_LAURENT.PNG');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  color:var(--white);padding:70px 0 60px;overflow:hidden;position:relative;
+  color:var(--white);padding:70px 0 60px;overflow:hidden; position:relative;
 }
 .hero::before{
   content:'';position:absolute;top:0;right:0;bottom:0;left:0;

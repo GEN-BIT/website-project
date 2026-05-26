@@ -52,5 +52,16 @@
 .admission-box h4{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--navy);margin-bottom:14px}
 .intake-note{background:var(--white);border:2px solid var(--navy-soft);border-radius:var(--radius-sm);padding:12px 16px;margin-top:16px;font-size:14px;color:var(--navy);font-weight:600;text-align:center}
 
-@media(max-width:760px){.contact-cards{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.contact-cards{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
+.school-preview{margin-bottom:28px}
+.school-preview .sec-head{margin-bottom:24px}
+.preview-content{color:var(--text-mid)}
+.preview-content>p{font-size:15px;line-height:1.8;color:var(--text-mid);margin-bottom:20px}
+.preview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:20px 0}
+.preview-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-align:center;transition:all var(--t)}
+.preview-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px)}
+.pc-icon{font-size:32px;margin-bottom:12px;display:block}
+.pc-text strong{display:block;font-size:14px;font-weight:700;color:var(--navy);margin-bottom:8px;font-family:'Playfair Display',serif}
+.pc-text p{font-size:13px;color:var(--text-soft);line-height:1.6;margin:0}
+
+@media(max-width:760px){.contact-cards{grid-template-columns:1fr 1fr}.preview-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.contact-cards{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.preview-grid{grid-template-columns:1fr}}
