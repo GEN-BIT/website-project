@@ -52,49 +52,16 @@
 .admission-box h4{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--navy);margin-bottom:14px}
 .intake-note{background:var(--white);border:2px solid var(--navy-soft);border-radius:var(--radius-sm);padding:12px 16px;margin-top:16px;font-size:14px;color:var(--navy);font-weight:600;text-align:center}
 
-@media(max-width:760px){.contact-cards{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.contact-cards{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
+.school-preview{margin-bottom:28px}
+.school-preview .sec-head{margin-bottom:24px}
+.preview-content{color:var(--text-mid)}
+.preview-content>p{font-size:15px;line-height:1.8;color:var(--text-mid);margin-bottom:20px}
+.preview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:20px 0}
+.preview-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-align:center;transition:all var(--t)}
+.preview-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px)}
+.pc-icon{font-size:32px;margin-bottom:12px;display:block}
+.pc-text strong{display:block;font-size:14px;font-weight:700;color:var(--navy);margin-bottom:8px;font-family:'Playfair Display',serif}
+.pc-text p{font-size:13px;color:var(--text-soft);line-height:1.6;margin:0}
 
-/* ── CONTACT PAGE THEME OVERRIDES ───────────────────────── */
-[data-theme="dark"] .cc { background: #1A1E2E; border-color: #2C3248; border-top-color: #2A4070; }
-[data-theme="dark"] .cc h3 { color: #D8E8FF; }
-[data-theme="dark"] .cc p, [data-theme="dark"] .cc a { color: #93B4DC; }
-[data-theme="dark"] .map-placeholder { background: linear-gradient(135deg,#141828,#1A2240); border-color: #2C3248; }
-[data-theme="dark"] .contact-form-wrap { background: #1A1E2E; border-color: #2C3248; }
-[data-theme="dark"] .form-title { color: #D8E8FF; }
-[data-theme="dark"] .form-subtitle { color: #7A90B8; border-color: #2C3248; }
-[data-theme="dark"] .field label { color: #D8E8FF; }
-[data-theme="dark"] .field input,
-[data-theme="dark"] .field select,
-[data-theme="dark"] .field textarea {
-  background: #141828; border-color: #2C3248;
-  color: #D8E8FF;
-}
-[data-theme="dark"] .field input:focus,
-[data-theme="dark"] .field select:focus,
-[data-theme="dark"] .field textarea:focus { border-color: #4A7AB8; background: #1A1E2E; }
-[data-theme="dark"] .radio-label { background: #141828; border-color: #2C3248; color: #D8E8FF; }
-[data-theme="dark"] .radio-label:hover { background: #1E2A44; border-color: #4A6090; }
-[data-theme="dark"] .hours-table tr { border-color: #2C3248; }
-[data-theme="dark"] .hours-table td:last-child { color: var(--gold-line); }
-[data-theme="dark"] .admission-box { background: #1E2440; border-color: #3A4A6A; }
-[data-theme="dark"] .admission-box h4 { color: #D8E8FF; }
-[data-theme="dark"] .intake-note { background: #141828; border-color: #3A4A6A; color: #93B4DC; }
-
-[data-theme="brown"] .cc { background: #FFFAF3; border-color: #DEC89A; border-top-color: #5C3015; }
-[data-theme="brown"] .cc h3 { color: #3B1F0A; }
-[data-theme="brown"] .contact-form-wrap { background: #FFFAF3; border-color: #DEC89A; }
-[data-theme="brown"] .form-subtitle { border-color: #DEC89A; }
-[data-theme="brown"] .field input,
-[data-theme="brown"] .field select,
-[data-theme="brown"] .field textarea {
-  background: #F5ECD8; border-color: #DEC89A; color: #2A1205;
-}
-[data-theme="brown"] .field input:focus,
-[data-theme="brown"] .field select:focus,
-[data-theme="brown"] .field textarea:focus { border-color: #8A5020; background: #FFFAF3; }
-[data-theme="brown"] .radio-label { background: #F5E8CC; border-color: #DEC89A; color: #2A1205; }
-[data-theme="brown"] .radio-label:hover { background: #F0D8A8; border-color: #B8750A; }
-[data-theme="brown"] .hours-table td:last-child { color: #5C3015; }
-[data-theme="brown"] .admission-box { background: #FFF0D0; border-color: var(--gold-line); }
-[data-theme="brown"] .intake-note { background: #FFFAF3; border-color: #DEC89A; color: #5C3015; }
+@media(max-width:760px){.contact-cards{grid-template-columns:1fr 1fr}.preview-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.contact-cards{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.preview-grid{grid-template-columns:1fr}}

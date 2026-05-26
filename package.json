@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.0"
+  },
+  "name": "website-project",
+  "version": "1.0.0",
+  "description": "Saint Laurent Gaseke Technical Secondary School was established in Gicumbi District, Northern Province, with a clear mission: to equip young Rwandans with practical skills for Rwanda’s growing economy. Beginning with Electrical Technology and Building Construction, the school rapidly built a reputation for hands-on, results-oriented training.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEN-BIT/website-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GEN-BIT/website-project/issues"
+  },
+  "homepage": "https://github.com/GEN-BIT/website-project#readme"
+}
