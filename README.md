@@ -1,5 +1,6 @@
 # Website Project
 
+[![GitHub Actions](https://github.com/GEN-BIT/website-project/actions/workflows/deploy.yml/badge.svg)](https://github.com/GEN-BIT/website-project/actions/workflows/deploy.yml)
 [![GitHub Pages](https://img.shields.io/badge/GitHub--Pages-blue)](https://GEN-BIT.github.io/website-project/)
 
 A polished static website repository with multiple HTML pages, page-specific CSS, shared styling, and a small JavaScript theme helper.
@@ -50,7 +51,7 @@ http://localhost:8000
 
 ## Publish with GitHub Pages
 
-This repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml` that can deploy the site automatically on every push to `master`.
+This repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml` that deploys the site automatically on every push to `master`.
 
 To enable it:
 
@@ -61,10 +62,10 @@ To enable it:
 The public site will be available at:
 
 ```text
-https://GEN-BIT.github.io/website-project/
+https://gen-bit.github.io/website-project/
 ```
 
-> If you prefer a branch-based deploy flow such as `gh-pages`, I can add an alternate workflow.
+If you prefer a branch-based deploy flow such as `gh-pages`, I can add an alternate workflow.
 
 ## Contributing
 
