@@ -6,7 +6,7 @@
 .ph-breadcrumb{font-size:12px;color:rgba(255,255,255,.45);margin-bottom:10px}
 .ph-breadcrumb a{color:var(--gold-line)}
 
-.contact-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px}
+.contact-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:28px}
 .cc{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-xs);padding:20px 16px;text-align:center;border-top:4px solid var(--navy);transition:box-shadow var(--t),transform var(--t)}
 .cc:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
 .cc-icon{font-size:28px;margin-bottom:10px;display:block}
@@ -56,7 +56,7 @@
 .school-preview .sec-head{margin-bottom:24px}
 .preview-content{color:var(--text-mid)}
 .preview-content>p{font-size:15px;line-height:1.8;color:var(--text-mid);margin-bottom:20px}
-.preview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:20px 0}
+.preview-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:20px 0}
 .preview-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-align:center;transition:all var(--t)}
 .preview-card:hover{box-shadow:var(--shadow-md);transform:translateY(-3px)}
 .pc-icon{font-size:32px;margin-bottom:12px;display:block}

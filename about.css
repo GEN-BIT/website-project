@@ -20,7 +20,7 @@
 .tl-content strong{display:block;font-size:15px;font-weight:700;color:var(--navy);margin-bottom:4px}
 .tl-content p{font-size:14px;color:var(--text-soft);line-height:1.7}
 
-.mvv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:10px}
+.mvv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-bottom:10px}
 .mvv-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-xs);padding:24px;border-top:4px solid var(--gold);position:relative;overflow:hidden}
 .mvv-card::before{content:'';position:absolute;top:-20px;right:-20px;width:80px;height:80px;border-radius:50%;background:var(--gold-pale);opacity:.5}
 .mvv-icon{font-size:28px;margin-bottom:14px;display:block}
